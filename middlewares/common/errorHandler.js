@@ -13,7 +13,7 @@ function errorHandler(err, req, res, next) {
     if (res.locals.html) {
         // html response
         res.render("error", {
-            title: "Error page2"
+            title: "Error page"
         })
     } else {
         // json response
